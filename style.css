@@ -310,7 +310,7 @@ footer .right div:last-child{
     section.trackContainer .trackInfo .right .box {
         text-align:start;
         width: 50%;
-        margin: 0;
+        margin: 0 0 0.8rem 0;
     }
     section.trackContainer .trackInfo .left img {
         margin-left: -2.5rem;
@@ -322,10 +322,5 @@ footer .right div:last-child{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         justify-items: start;
-    }
-}
-@media (min-width:1400px){
-    html{
-        font-size: 24px;
     }
 }
