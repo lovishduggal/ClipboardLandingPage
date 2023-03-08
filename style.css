@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 18px;
+}
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.container{
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+header{
+    padding: 5rem 0;
+    background-image: url(./images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+header .logoContainer {
+    margin-bottom: 2.5rem;
+}
+header .textContainer h1 {
+    font-size: 1.8rem;
+    color:  hsl(210, 10%, 33%);
+    margin-bottom: 1rem;
+}
+header .textContainer p {
+    font-size: 0.8rem;
+    color:  hsl(201, 11%, 66%);
+    margin-bottom: 2rem;
+}
+ .btnContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    padding: 0.8rem 4rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Bai Jamjuree', sans-serif;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+ .btnContainer .btn_1 {
+    background-color:  hsl(171, 66%, 44%);
+    box-shadow: hsla(171, 66%, 44%,0.3) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+ .btnContainer .btn_1:hover{
+    box-shadow: hsla(171, 66%, 44%,0.9) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+ .btnContainer .btn_2 {
+    background-color:  hsl(233, 100%, 69%);
+    box-shadow: hsla(233, 100%, 69%, 0.3) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+ .btnContainer .btn_2:hover {
+    box-shadow: hsla(233, 100%, 69%, 0.9) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+section.trackContainer{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+section.trackContainer .textContainer h2 {
+    font-size:1.5rem;
+    color:  hsl(210, 10%, 33%);
+    margin-bottom: 1rem;
+}
+section.trackContainer .textContainer p{
+    font-size: 0.8rem;
+    color:  hsl(201, 11%, 66%);
+    margin-bottom: 4rem;
+}
+section.trackContainer .trackInfo {
+    width: 90%;
+    margin: 0 auto;
+}
+section.trackContainer .trackInfo .left, section.trackContainer .trackInfo .right .box{
+    margin-bottom: 2.5rem;
+}
+section.trackContainer .trackInfo .right .box h3 {
+    font-size:1.1rem;
+    color:  hsl(210, 10%, 33%);
+    margin-bottom: 0.3rem;
+}
+section.trackContainer .trackInfo .right .box p{
+    font-size: 0.8rem;
+    color:  hsl(201, 11%, 66%);
+}
+section.trackContainer img {
+    width: 100%;
+}
+section.clipboardContainer {
+    text-align: center;
+    margin-bottom: 5rem;
+}
+section.clipboardContainer .textContainer h2 {
+    font-size:1.5rem;
+    color:  hsl(210, 10%, 33%);
+    margin-bottom: 1rem;
+}
+section.clipboardContainer .textContainer p{
+    font-size: 0.8rem;
+    color:  hsl(201, 11%, 66%);
+    margin-bottom: 4rem;
+}
+section.clipboardContainer img {
+    width: 100%;
+}
+section.workflowContainer {
+    padding-bottom: 5rem;
+    text-align: center;
+}
+section.workflowContainer .textContainer h2 {
+    font-size:1.5rem;
+    color:  hsl(210, 10%, 33%);
+    margin-bottom: 1rem;
+}
+section.workflowContainer .textContainer p{
+    font-size: 0.8rem;
+    color:  hsl(201, 11%, 66%);
+}
+section.workflowContainer .threeCards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    grid-gap: 3rem;
+    margin-bottom: 6rem;
+    align-items: center;
+    justify-items: center;
+}
+section.workflowContainer .threeCards  .box {
+    display: grid;
+    grid-template-rows:120px 90px 90px;
+    align-items: center;
+
+}
+section.workflowContainer .threeCards  .box h3 {
+    font-size:1.1rem;
+    color:  hsl(210, 10%, 33%);
+}
+section.workflowContainer .threeCards  .box p {
+    font-size: 0.8rem;
+    color:  hsl(201, 11%, 66%);
+    align-self: self-start;
+}
+section.workflowContainer .threeCards  .box img {
+    width: 44px;
+    height: 40px;
+}
+section.workflowContainer .fiveLogos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 4rem;
+}
+section.iosMac {
+    padding-bottom: 5rem;
+    text-align: center;
+}
+section.iosMac .textContainer h2 {
+    font-size:1.5rem;
+    color:  hsl(210, 10%, 33%);
+    margin-bottom: 1rem;
+}
+section.iosMac .textContainer p{
+    font-size: 0.8rem;
+    color:  hsl(201, 11%, 66%);
+    margin-bottom: 4rem;
+}
+footer{
+    padding: 3rem 0;
+    background-color:  hsl(0, 0%, 96%);
+    text-align: center;
+}
+footer .footerLogo img{
+    width: 70px;
+}
+footer .footerLogo {
+    margin-bottom: 3rem;
+}
+footer .left {
+    margin-bottom: 3rem;
+}
+footer .left .links{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+    justify-items: center;
+}
+footer .left ul {
+    list-style: none;
+}
+footer .left ul li {
+    font-size: 1rem;
+    font-weight: 600;
+    color:  hsl(201, 11%, 66%);
+}
+footer .left ul li:last-child{
+    margin: 0;
+}
+footer .left ul li:hover{
+    color:  hsl(171, 66%, 44%);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+footer .right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .right div {
+    margin-right: 2rem;
+    font-size: 1.5rem;
+}
+footer .right div a {
+    color:  hsl(201, 11%, 66%);
+}
+footer .right div a:hover{
+    color:  hsl(171, 66%, 44%);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+footer .right div:last-child{
+    margin: 0;
+}
+/*  Media Queries */
+@media(min-width:500px)
+{
+    section.trackContainer .trackInfo .right .box {
+        width: 70%;
+        margin: 0 auto 2.5rem auto;
+    }
+}
+@media(min-width:768px)
+{
+    html{
+        font-size: 20px;
+    }
+    section.trackContainer .trackInfo .right .box  {
+        width: 50%;
+    }
+    .btnContainer
+    {
+      flex-direction: row;
+      justify-content: center;
+    }
+    .btnContainer .btn_1 {
+        margin-right: 1rem;
+    }
+}
+@media (min-width:900px)
+{
+    header .textContainer {
+        width: 70%;
+        margin: 0 auto ;
+    }
+    footer .footerLogo {
+        margin-bottom: 0rem;
+    }
+    footer .left {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    footer .grid {
+        display: grid;
+        grid-template-columns: 1fr 0.5fr;
+        align-items: center;
+    }
+}
+@media (min-width:1024px)
+{
+    html{
+        font-size: 20px;
+    }
+    section.clipboardContainer .textContainer {
+        width: 50%;
+        margin:0 auto ;
+    }
+    section.trackContainer .trackInfo {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+    }
+    section.trackContainer .trackInfo .left {
+        margin-right: 3rem;
+        margin-bottom: 0rem;
+        width: 50%;
+    }
+    section.trackContainer .trackInfo .right {
+        align-items: start;
+        width: 50%;
+    }
+    section.trackContainer .trackInfo .right .box {
+        text-align:start;
+        width: 50%;
+        margin: 0;
+    }
+    section.trackContainer .trackInfo .left img {
+        margin-left: -2.5rem;
+    }
+    footer .left {
+        grid-template-columns: 1fr 3fr;
+    }
+    footer .left  .links {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: start;
+    }
+}
+@media (min-width:1400px){
+    html{
+        font-size: 24px;
+    }
+}
