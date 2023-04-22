@@ -240,6 +240,9 @@ footer .right div:last-child{
 /*  Media Queries */
 @media(min-width:500px)
 {
+    header{
+        background-image: url(./images/bg-header-desktop.png);
+    }
     section.trackContainer .trackInfo .right .box {
         width: 70%;
         margin: 0 auto 2.5rem auto;
